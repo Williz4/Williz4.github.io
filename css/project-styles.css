@@ -1,0 +1,61 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	min-height: 100%;
+	width: 100%;
+	background-image: url(../images/2.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container-fluid {
+	background-color: rgba(0, 0, 0, .7);
+}
+
+#content {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	padding: 50px;
+	font-size: 1.3em;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+#content h1 {
+	margin-bottom: 40px;
+}
+
+#content figure figcaption {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.btn-success {
+	background-color: red;
+	border: 0;
+}
+
+/*Modal Styling Below*/
+.modal-header h2 {
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 1.9em;
+}
+
+.modal-body p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.3em;
+}
+
+.modal-footer {
+	background-color: black;
+	text-align: center;
+}
+
+.modal-footer p {
+	font-family: 'Berkshire Swash', cursive;
+	color: #fff;
+	font-size: 1.3em;
+}
