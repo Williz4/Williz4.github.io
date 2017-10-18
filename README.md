@@ -1,6 +1,6 @@
 # Portfolio Landing Page
 
-#### Basically This Site Showcases my individuality as a person and displays prokects I have worked on in the past., 13/10/2017
+#### Basically This Site Showcases my individuality as a person and displays projects I have worked on in the past., 13/10/2017
 
 #### By **Wilson Mwangeka**
 
