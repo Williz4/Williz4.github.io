@@ -14,7 +14,7 @@ body {
 	justify-content: center;
 }
 
-ul {
+#links {
 	background: rgba(0, 0, 0, .9);
 	width: auto;
 	height: auto;
@@ -26,18 +26,54 @@ ul {
 	position: relative;
 }
 
-ul li {
+#links li {
 	margin-bottom: 20px;
 }
 
-ul li a {
+#links li a {
 	color: #fff;
 	font-family: 'Berkshire Swash', cursive;
 	font-size: 2.5em;
 	text-transform: uppercase;
 }
 
-ul li a:hover {
+#links li a:hover {
+	color: red;
+	text-decoration: none;
+	transition: color .5s;
+}
+
+#social {
+	background: rgba(0, 0, 0, .9);
+	width: auto;
+	height: auto;
+	text-align: center;
+	padding: 30px;
+	list-style-type: none;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+#social p {
+	color: #fff;
+	font-family: 'Berkshire Swash', cursive;
+}
+
+#social li {
+	margin-bottom: 20px;
+}
+
+#social li a {
+	color: #fff;
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+#social li a:hover {
 	color: red;
 	text-decoration: none;
 	transition: color .5s;
