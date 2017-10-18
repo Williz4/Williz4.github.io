@@ -290,7 +290,6 @@ background:transparent !important;
 
 body {
 	min-height: 100%;
-	width: 100%;
 	background-image: url(../images/2.jpeg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -298,22 +297,24 @@ body {
 
 .container-fluid {
 	background-color: rgba(0, 0, 0, .7);
+	width: 100% !important;
 }
+
 
 #content {
 	color: #fff;
 	font-family: 'Raleway', sans-serif;
-	padding: 50px;
 	font-size: 1.3em;
 }
 
-#content > h1 {
+#content h1 {
 	text-align: center;
 	margin-bottom: 20px;
 }
 
 #content article {
 	margin-bottom: 40px;
+	padding: 40px;
 }
 
 #content p span {
@@ -331,8 +332,11 @@ body {
 #large-window {
 	background-image: url(../images/1.jpeg);
 	height: 400px;
+	width: 100%;
 	background-position: top right;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	margin: 40px 0 0 40px;
+	background-size: cover;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
