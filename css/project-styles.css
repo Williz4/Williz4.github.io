@@ -324,10 +324,26 @@ body {
 	border: 0;
 }
 
+.btn-success:hover {
+	background-color: red;
+	border: 0;
+}
+
+.btn-success:visited {
+	background-color: red !important;
+	border: 0;
+}
+
+.btn-success:active {
+	background-color: red !important;
+	border: 0;
+}
+
 /*Modal Styling Below*/
 .modal-header h2 {
 	font-family: 'Berkshire Swash', cursive;
 	font-size: 1.9em;
+	text-align: center;
 }
 
 .modal-body p {
